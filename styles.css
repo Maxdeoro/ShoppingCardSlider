@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900|Open+Sans:300,400|Oswald:400,700");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+  }
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: #ddd;
+  padding: 20px;
+}
+
+.mySlider {
+	width: 500px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: #fff;
+}
+
+.myImage {
+	position:relative;
+	margin-right: 5px;
+}
+
+.title-descr {
+	position: absolute;
+	width: 200px;
+	margin-left: 20px;
+}
+
+img {
+    width: 50%;
+    height: 370px;
+    margin-left: 230px;
+}
+
+.item-title {
+	margin-bottom: 17px;
+	color: #aa3375;
+}
+
+ .item-descr {
+	margin-bottom: 35px;
+	font-size: 15px;
+} 
+
+.item-price {
+	color: #aa3339;
+	margin-top: 15px;
+	text-align: center;
+}
+
+.price-round {
+	border: 2px solid black;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+}
+
+.sale {
+	background-color: #f2e93c;
+}
+
+.slick-arrow {
+    width: 50px;
+    height: 50px;
+}
+
+.slick-arrow::before {
+    font-size: 40px;
+    color: rgb(75, 68, 68);
+}
+
+button.slick-disabled {
+	opacity: 0.6;
+}
+
+.slick-dots {
+	li button:before,
+	li.slick-active button:before {
+	  color: black;
+	  opacity: 1;
+	}
+	li button:before{
+	  background-color: transparent;
+	  border: 4px solid #fff;
+	  border-radius: 50%;
+	  display: inline-block;
+	  height: 20px;
+	  width: 20px;
+  
+	}
+	li.slick-active button:before {
+	  background-color: #786363;
+	}
+  }
+
+
+
