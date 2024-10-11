@@ -1,2 +1,2 @@
 # ShoppingCardSlider
-Slider for on-line shopping(example).
+Slider for on-line shopping based on SlickSlider.
